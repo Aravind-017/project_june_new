@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart' as sql;
 
-class SQLHelpe {
+class SQLHelper {
   //database creation
   static Future<sql.Database> createDB() async {
     return sql.openDatabase('mycontacts.db', version: 1,
